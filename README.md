@@ -20,7 +20,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+	def set_copyright
+  	@copyright = TestViewTool::Renderer.copyright 'Andrew Pierson', 'All rights reserved'
+  end
+```
 
 ## Development
 
